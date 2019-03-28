@@ -18,5 +18,5 @@ consultaServer:
   ribbon:
     eureka:
       enabled: true
+    listOfServers: localhost:9091,localhost:9092
     ServerListRefreshInterval: 15000
-    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
