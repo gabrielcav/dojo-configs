@@ -1,7 +1,7 @@
- server:
+server:
   port: 9096
-
- eureka:
+  
+eureka:
   instance:
     hostname: localhost
     port: 8761
@@ -9,14 +9,14 @@
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+      defaultZone: 'http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/'
     server:
       wait-time-in-ms-when-sync-empty: 3000
       enableSelfPreservation: false
 
- dojo-consulta-server:
+dojo-consulta-server:
   ribbon:
     eureka:
       enabled: true
-    listOfServers: localhost:9093
+    listOfServers: 'localhost:9093'
     ServerListRefreshInterval: 15000
