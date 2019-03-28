@@ -13,3 +13,10 @@
     server:
       wait-time-in-ms-when-sync-empty: 3000
       enableSelfPreservation: false
+
+  dojo-consulta-server:
+    ribbon:
+      eureka:
+        enabled: false
+      listOfServers: localhost:9095,localhost:9105,localhost:9110
+      ServerListRefreshInterval: 15000
