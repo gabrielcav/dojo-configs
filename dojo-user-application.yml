@@ -1,6 +1,6 @@
 server:
   port: 9096
-  
+
 eureka:
   instance:
     hostname: localhost
@@ -18,5 +18,5 @@ dojo-consulta-server:
   ribbon:
     eureka:
       enabled: true
-    listOfServers: 'localhost:9093'
+    listOfServers: 'localhost:9094,localhost:9095'
     ServerListRefreshInterval: 15000
