@@ -18,5 +18,5 @@ consultaServer:
   ribbon:
     eureka:
       enabled: false
-    listOfServers: localhost:9091,localhost:9092
+    listOfServers: consultaServer:9091,consultaServer:9092
     ServerListRefreshInterval: 15000
