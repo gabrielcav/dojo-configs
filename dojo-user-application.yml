@@ -18,5 +18,5 @@ dojo-consulta-server:
   ribbon:
     eureka:
       enabled: true
-    listOfServers: 'localhost:9094,localhost:9095'
     ServerListRefreshInterval: 15000
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
