@@ -1,7 +1,6 @@
 eureka:
   instance:
     hostname: consultaServer
-    port: 9096
   client:
     registerWithEureka: true
     fetchRegistry: true
