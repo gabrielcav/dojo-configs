@@ -17,6 +17,6 @@
   dojo-consulta-server:
     ribbon:
       eureka:
-        enabled: false
+        enabled: true
       listOfServers: localhost:9093,localhost:9094,localhost:9095
       ServerListRefreshInterval: 15000
