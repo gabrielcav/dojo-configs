@@ -14,7 +14,7 @@ eureka:
       wait-time-in-ms-when-sync-empty: 3000
       enableSelfPreservation: false
 
-dojo-consulta-server:
+consultaServer:
   ribbon:
     eureka:
       enabled: true
