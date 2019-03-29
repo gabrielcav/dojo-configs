@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: consultaServer
+    hostname: consultaserver
   client:
     registerWithEureka: true
     fetchRegistry: true

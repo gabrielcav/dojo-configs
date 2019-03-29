@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: userApplication
+    hostname: userapplication
   client:
     registerWithEureka: true
     fetchRegistry: true
@@ -16,6 +16,6 @@ eureka:
 consultaServer:
   ribbon:
     eureka:
-      enabled: false
-    listOfServers: consultaServer:9091,consultaServer:9092
+      enabled: true
     ServerListRefreshInterval: 15000
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
